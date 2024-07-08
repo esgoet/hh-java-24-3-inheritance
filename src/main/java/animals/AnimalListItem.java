@@ -23,7 +23,8 @@ public class AnimalListItem {
     @Override
     public String toString() {
         return "AnimalListItem{" +
-                value +
+                "value=" + value +
+                ", next=" + next +
                 '}';
     }
 }
